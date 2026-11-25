@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navidad</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+    <header id="inicio">
+        <h1>🎄 Navidad 🎄</h1>
+        <nav>
+            <a href="#bienvenida">Bienvenida</a>
+            <a href="#historia">Historia</a>
+            <a href="#personajes">Personajes</a>
+            <a href="#regalos">Regalos</a>
+            <a href="#comida">Comida</a>
+        </nav>
+    </header>
+
+    <main>
+        <section id="bienvenida" class="seccion">
+            <h2>¡Bienvenidos a la epoca mas amada del año, LA NAVIDAD!</h2>
+            <p>
+                La Navidad es una época de unión, alegría y solidaridad.
+                Es un momento para compartir con la familia, decorar nuestros hogares
+                y expresar cariño a las personas que queremos.
+            </p>
+            <img class="imagen-principal" src="imagenes/arbol1.jpg"
+                 alt="Árbol de Navidad">
+            <p>
+                El origen de la Navidad tiene varias teorias como historias 
+                de como se dio esta festividad, sin embargo hay dos creencias y costumbres
+                que se expandio por todo el mundo.
+            </p>
+            <p>
+                Les invito a leer un poco sobre las historias, personajes, costumbres
+                como regalos y las comidas que se dan en La Navidad.
+            </p>
+            <p>
+                Aqui también puedes comprar las mas famosas comidas para esta 
+                Navidad que viene!
+            </p>
+            <h3>ACTIVIDED NAVIDEÑAS</h3>
+            <ul>
+                <li>Decorar el árbol de Navidad.</li>
+                <li>Compartir una cena familiar.</li>
+                <li>Entregar regalos.</li>
+                <li>Escuchar villancicos.</li>
+            </ul>
+
+            <h3>Elementos de la Navidad</h3>
+            <table>
+                <tr>
+                    <th>Elemento</th>
+                    <th>Significado</th>
+                    <th>Dato curioso</th>
+                </tr>
+                <tr>
+                    <td>Árbol</td>
+                    <td>Representa la esperanza y la vida.</td>
+                    <td>En la epoca bajo la creencia de las brujas, 
+                        en el folclore europeo y las tradiciones esotéricas, 
+                        el pino fue un fuerte poder protector para alejar 
+                        maldiciones, limpiar energías negativas y devolver hechizos
+                    </td>
+                </tr>
+                <tr>
+                    <td>Estrella</td>
+                    <td>Representa la luz y la guía.</td>
+                    <td>Una de las explicaciones de como se dio esta estrella
+                        es astronómica,fue una alineación cercana de planetas, como;
+                        Júpiter y Saturno hacia el año 7 a.C.
+                    </td>
+                </tr>
+                <tr>
+                    <td>Regalos</td>
+                    <td>Representan el cariño y la generosidad.</td>
+                    <td>Esta costumbre nació como una fusión entre las 
+                        antiguas fiestas paganas de invierno en Roma 
+                        (las Saturnales) y la tradición cristiana de 
+                        los Reyes Magos</td>
+                </tr>
+            </table>
+        </section>
+        <section id="historia" class="seccion">
+            <h2>Historia de la Navidad</h2>
+
+            <div class="historia-contenido">
+                <div class="historia-texto">
+                    <p>
+                        Una de las historias de La Navidad, Es la celebración 
+                        cristiana que recuerda el nacimiento de Jesús; Es el hijo
+                        de Dios, segun la biblia, este famoso personaje,
+                        difundio la palabra de Dios, su padre, e hizo milagros 
+                        extraordinarios junto a sus 12 apostoles.  
+                    </p>
+                    <p>
+                        Siguiendo con el Nacimiento, Jesús nació en Belén; por 
+                        horden de César Augusto, María y José viajaron a Belén, 
+                        ciudad de origen de la familia de José. Al no encontrar posada 
+                        disponible, se refugiaron en un establo. Jesús nació allí y 
+                        fue acostado en un pesebre, marcando el inicio del relato 
+                        cristiano de la Navidad. Unos ángeles  Unos ángeles anunciaron 
+                        la noticia a los pastores de los campos cercanos, quienes acudieron 
+                        a adorarlo. Más tarde, unos sabios o magos de Oriente guiados por 
+                        una estrella le llevaron oro, incienso y mirra.  Advertidos en 
+                        sueños sobre las intenciones del rey Herodes, los magos no regresaron 
+                        con él, y José llevó a María y a Jesús a Egipto para protegerlo.
+                    </p>
+                    <p>
+                        Con el paso del tiempo, esta fecha
+                        también se convirtió en una tradición cultural y familiar
+                        celebrada en diferentes partes del mundo.
+                    </p>
+                    <p>
+                        Actualmente, muchas familias celebran la Navidad reuniéndose,
+                        preparando comidas especiales, decorando sus casas y
+                        compartiendo buenos deseos.
+                    </p>
+                </div>
+                <img src="imagenes/nacimiento.jpg" alt="Nacimiento navideño">
+            </div>
+
+            <div id="tradiciones" class="caja-tradiciones">
+                <h3>Tradiciones navideñas</h3>
+                <p>Entre las tradiciones más conocidas están los villancicos,
+                   el pesebre, el árbol decorado y la cena familiar.</p>
+            </div>
+        </section>
+        <section id="personajes" class="seccion">
+            <h2>Personajes de la Navidad</h2>
+            <p>Presiona un botón para conocer a cada personaje.</p>
+
+            <div class="personajes">
+                <div class="tarjeta-personaje">
+                    <img src="imagenes/papanoel2.jpg" alt="Papá Noel">
+                    <h3>Papá Noel</h3>
+                    <button onclick="mostrarPersonaje('papa')">Ver descripción</button>
+                </div>
+
+                <div class="tarjeta-personaje">
+                    <img src="imagenes/reno.jpg" alt="Reno">
+                    <h3>Reno</h3>
+                    <button onclick="mostrarPersonaje('reno')">Ver descripción</button>
+                </div>
+
+                <div class="tarjeta-personaje">
+                    <img src="imagenes/duende.jpg" alt="Duende navideño">
+                    <h3>Duende</h3>
+                    <button onclick="mostrarPersonaje('duende')">Ver descripción</button>
+                </div>
+            </div>
+
+            <div id="descripcion-personaje" class="mensaje">
+                Aquí aparecerá la descripción del personaje.
+            </div>
+        </section>
+        <section id="regalos" class="seccion">
+            <h2>Lista de regalos</h2>
+            <p>Escribe un regalo y presiona el botón para agregarlo a tu lista.</p>
+
+            <div class="formulario">
+                <input type="text" id="nuevo-regalo" placeholder="Escribe un regalo">
+                <button onclick="agregarRegalo()">Agregar regalo</button>
+            </div>
+
+            <ul id="lista-regalos">
+                <li>Juguetes</li>
+                <li>Libros</li>
+                <li>Ropa</li>
+            </ul>
+        </section>
+        <section id="comida" class="seccion">
+            <h2>Comidas navideñas</h2>
+            <p>Agrega platos a tu carrito y revisa el total de tu compra.</p>
+
+            <div class="comidas">
+                <div class="tarjeta-comida">
+                    <img src="imagenes/pavo.jpg" alt="Pavo al horno">
+                    <h3>Pavo al horno</h3>
+                    <p>Precio: Bs. 120</p>
+                    <button onclick="agregarAlCarrito('Pavo al horno', 120)">Agregar</button>
+                </div>
+
+                <div class="tarjeta-comida">
+                    <img src="imagenes/picana.jpg" alt="Ensalada navideña">
+                    <h3>Picana Navideña</h3>
+                    <p>Precio: Bs. 50</p>
+                    <button onclick="agregarAlCarrito('Picana navideña', 50)">Agregar</button>
+                </div>
+
+                <div class="tarjeta-comida">
+                    <img src="imagenes/paneton.jpg" alt="Panetón">
+                    <h3>Panetón</h3>
+                    <p>Precio: Bs. 40</p>
+                    <button onclick="agregarAlCarrito('Panetón', 40)">Agregar</button>
+                </div>
+            </div>
+
+            <div class="carrito">
+                <h3>🛒 Mi carrito</h3>
+                <ul id="lista-carrito">
+                    <li>No hay productos agregados.</li>
+                </ul>
+                <p><strong>Total: Bs. <span id="total">0</span></strong></p>
+                <button onclick="vaciarCarrito()">Vaciar carrito</button>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>Diseñado por: Rosalia Avila Condori</p>
+        <p>Mi proyecto de HTML, CSS y JavaScript</p>
+        <a href="#inicio">Volver al inicio ↑</a>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
